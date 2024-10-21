@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="?android:attr/windowBackground"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="250dp"
+    android:layout_margin="8dp">
+
+    <!-- Иконка для Snackbar -->
+    <ImageView
+        android:id="@+id/snackbar_image"
+        android:layout_width="67dp"
+        android:layout_height="131dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="Snackbar Icon"
+        android:src="@drawable/furina" />
+
+    <!-- Текст сообщения -->
+    <TextView
+        android:id="@+id/snackbar_text"
+        android:text="Сюрприз"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+</LinearLayout>
